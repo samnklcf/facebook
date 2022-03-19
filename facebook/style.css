@@ -1,0 +1,255 @@
+:root {
+    --color1: #3b5998;
+    --color2: #5E964B;
+    --color3: #edf0f5;
+}
+
+@font-face {
+    font-family: 'fb';
+    src: url("./fonts/FACEBOLF.OTF");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color3);
+}
+
+header {
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 200px;
+}
+
+a {
+    color: #5274bd;
+    text-decoration: none;
+}
+
+header .logo {
+    color: white;
+    font-family: 'fb';
+
+}
+
+header form,
+.email,
+.pw,
+.sb {
+    display: flex;
+
+
+}
+
+
+
+form {
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+form input {
+    padding: 1px;
+    outline: none;
+}
+
+
+
+
+
+.email,
+.pw {
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+
+
+}
+
+.pw p a {
+    color: rgba(255, 255, 255, 0.507);
+    text-decoration: none;
+}
+
+.sb {
+    align-items: center;
+}
+
+.sb input {
+    padding: 2px 5px;
+    background-color: #4263aa;
+    outline: none;
+    border: .5px solid #5274bd;
+    color: white;
+}
+
+main {
+    height: calc(100vh - 80px);
+}
+
+.container {
+    height: 100%;
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+}
+
+.container1 {
+
+    height: 60%;
+    padding-top: 60px;
+
+
+}
+
+.row1 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 0 100px 0 0;
+    color: rgb(51, 51, 51);
+}
+
+.row2 {
+    display: flex;
+
+    align-items: center;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.row2 img {
+    margin-right: 12px;
+}
+
+
+.container2 {
+    width: 50%;
+    padding-top: 30px;
+
+
+}
+
+.container input {
+    border-radius: 6px;
+    outline: none;
+    border: .5px solid rgba(128, 128, 128, 0.582);
+    padding: 0 0 0 12px;
+
+}
+
+.name {
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    gap: 3px;
+    width: 100%;
+
+}
+
+.name input {
+
+    height: 100%;
+    font-size: 18px;
+
+}
+
+.name input::placeholder,
+.mobile input {
+    font-size: 18px;
+}
+
+.mobile {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+
+    gap: 15px;
+}
+
+.mobile input {
+    height: 50%;
+
+}
+
+.brt {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.dat {
+
+
+    display: flex;
+
+    align-items: center;
+    width: 75%;
+
+    margin-top: 7px;
+
+}
+
+.dat select:nth-child(3) {
+    margin-right: 10px;
+}
+
+.dat p a {
+
+    font-size: 12px;
+    color: #4263aa;
+    text-decoration: none;
+
+
+}
+
+.dat select {
+    padding: 8px;
+}
+
+.radios {
+    font-size: 17px;
+    padding: 12px;
+}
+
+.small {
+    width: 73%;
+}
+
+.vert {
+    padding: 12px 0 18px;
+    
+}
+
+.vert button {
+    padding: 10px 85px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'fb';
+    color: white;
+    background-color: #5E964B;
+    outline: none;
+    cursor: pointer;
+}
+
+.fin {
+    margin-top: 10px;
+}
+
+.fin a {
+    font-weight: 700;
+}
+
+.tete {
+    color: rgb(51, 51, 51);
+}
